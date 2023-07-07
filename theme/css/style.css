@@ -218,10 +218,9 @@ button:hover {
   background-size: cover;
   background-position: center center;
 }
-
-.bg-banner-one img{
+.bg-banner-one img {
   display: block;
-	max-width: 700px;
+  max-width: 700px;
 }
 
 .bg-banner-two {
