@@ -214,9 +214,14 @@ button:hover {
 }
 
 .bg-banner-one {
-  background: url(../images/background/homepage-one-banner.jpg) no-repeat;
+  background: url(../images/background/background.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.bg-banner-one img{
+  display: block;
+	max-width: 700px;
 }
 
 .bg-banner-two {
