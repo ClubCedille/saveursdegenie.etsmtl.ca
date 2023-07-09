@@ -218,10 +218,6 @@ button:hover {
   background-size: cover;
   background-position: center center;
 }
-.bg-banner-one img {
-  display: block;
-  max-width: 700px;
-}
 
 .bg-banner-two {
   background: url(../images/background/banner-bg-two.jpg) no-repeat;
@@ -552,6 +548,9 @@ select.form-control:not([size]):not([multiple]) {
   padding: 35px 40px 35px 50px;
   border-right: 1px solid #e5e5e5;
 }
+.main-nav .navbar-brand img {
+  max-width: 150px;
+}
 @media (max-width: 1200px) {
   .main-nav .navbar-brand {
     padding: 20px 30px;
@@ -720,16 +719,16 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav .ticket {
   background: #ff6600;
   display: block;
-  padding: 34px 32px;
+  padding: 60px 32px;
 }
 @media (max-width: 1352px) {
   .main-nav .ticket {
-    padding: 34px 26px;
+    padding: 60px 26px;
   }
 }
 @media (max-width: 1200px) {
   .main-nav .ticket {
-    padding: 23px 26px;
+    padding: 48px 26px;
   }
 }
 @media (max-width: 991px) {
@@ -988,6 +987,20 @@ select.form-control:not([size]):not([multiple]) {
   font-weight: normal;
   color: #fff;
   font-family: "Montserrat", sans-serif;
+}
+.banner .block img {
+  display: block;
+  max-width: 700px;
+}
+@media (max-width: 767px) {
+  .banner .block img {
+    max-width: 500px;
+  }
+}
+@media (max-width: 575px) {
+  .banner .block img {
+    max-width: 300px;
+  }
 }
 .banner .block h1 {
   text-transform: uppercase;

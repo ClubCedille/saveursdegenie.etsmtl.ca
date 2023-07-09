@@ -9,6 +9,9 @@
 		padding: 35px 40px 35px 50px;
 		border-right: 1px solid $border-color;
 
+		img{
+			max-width: 150px;
+		}
 		@include large-desktop {
 			padding: 20px 30px;
 		}
@@ -197,14 +200,14 @@
 	.ticket {
 		background: $primary-color;
 		display: block;
-		padding: 34px 32px;
+		padding: 60px 32px;
 
 		@include desktop-nav {
-			padding: 34px 26px;
+			padding: 60px 26px;
 		}
 
 		@include large-desktop {
-			padding: 23px 26px;
+			padding: 48px 26px;
 		}
 
 		@include desktop-sm {
