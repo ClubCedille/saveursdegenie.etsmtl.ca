@@ -236,9 +236,17 @@ button:hover {
 }
 
 .bg-speaker {
-  background: url(../images/background/spaeker-background.jpg) fixed no-repeat;
+  background: url(../images/background/competition.jpg) fixed no-repeat;
   background-size: cover;
   background-position: center center;
+  opacity: 0.9;
+}
+
+.bg-competition {
+  background: url(../images/background/competition.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.9;
 }
 
 .bg-timer {
