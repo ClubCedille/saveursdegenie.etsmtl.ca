@@ -282,7 +282,7 @@ button:hover {
 }
 
 .bg-sponsors {
-  background: url(../images/background/sponsors-bg.jpg) fixed no-repeat;
+  background: url(../images/background/page-title-bg.jpg) fixed no-repeat;
   background-size: cover;
   background-position: center center;
 }
