@@ -178,7 +178,10 @@ button{
   background: url(../images/background/competition.jpg) fixed no-repeat;
   background-size: cover;
   background-position: center center;
-  opacity: 0.9;
+  
+  &:before{
+    opacity: 0.6;
+  }
 }
 
 .bg-timer{
