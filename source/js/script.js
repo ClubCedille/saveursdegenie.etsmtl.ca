@@ -1,6 +1,6 @@
 (function ($) {
   'use strict';
-    
+
   // navbarDropdown
   if ($(window).width() < 992) {
     $('.main-nav [data-toggle="dropdown"]').on('click', function () {
@@ -55,9 +55,9 @@
     //  Count Down JS
     // -----------------------------
     $('.timer').syotimer({
-      year: 2023,
+      year: 2024,
       month: 11,
-      day: 3,
+      day: 29,
       hour: 18,
       minute: 0
     });
@@ -81,7 +81,7 @@
       fixedBgPos: true
 
     });
-    
+
     // gallery-wrapper init
     if (($('.gallery-wrapper').length) !== 0) {
       var Shuffle = window.Shuffle;
