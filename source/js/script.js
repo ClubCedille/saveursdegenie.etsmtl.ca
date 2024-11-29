@@ -58,7 +58,7 @@
       year: 2024,
       month: 11,
       day: 29,
-      hour: 18,
+      hour: 16,
       minute: 0
     });
 
