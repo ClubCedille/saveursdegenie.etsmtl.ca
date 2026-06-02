@@ -46,7 +46,7 @@ de travail définit deux scénarios principaux :
 
 Lorsqu'une nouvelle release est créée manuellement sur GitHub, une autre
 construction de Docker est déclenchée. L'image est poussée vers Docker Hub avec
-l'étiquette correspondant à la version de la release (par exemple **`v1.1.0`**).
+l'étiquette correspondant à la version de la release (par exemple **`v1.1.0`**)
 
 ## Mettre à jour le contenu
 
