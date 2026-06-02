@@ -2,9 +2,9 @@ name: Call reusable docker build
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 
@@ -19,6 +19,6 @@ jobs:
       container-name: saveursdegenie.etsmtl.ca
       context: .
       file: Dockerfile
-      branch: main
+      branch: master
     secrets:
       GIT_AUTH_TOKEN: ${{ secrets.GHCR_PAT }}
