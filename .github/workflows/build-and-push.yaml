@@ -14,13 +14,12 @@ permissions:
 
 jobs:
   build-and-push:
-    uses: clubcedille/cedille-workflows/.github/workflows/external-build-push-ghcr.yaml@master
+    uses: ClubCedille/cedille-workflows/.github/workflows/build-push-ghcr.yaml@master
     with:
       container-name: saveursdegenie.etsmtl.ca
       pr-head-sha: ${{ github.event.pull_request.head.sha || '' }}
       pr-head-ref: ${{ github.event.pull_request.head.ref || '' }}
-      context: .
-      file: Dockerfile
-      branch: master
-    secrets:
-      GIT_AUTH_TOKEN: ${{ secrets.GHCR_PAT }}
+    secrets: inherit
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
