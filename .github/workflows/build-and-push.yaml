@@ -17,6 +17,8 @@ jobs:
     uses: clubcedille/cedille-workflows/.github/workflows/external-build-push-ghcr.yaml@master
     with:
       container-name: saveursdegenie.etsmtl.ca
+      pr-head-sha: ${{ github.event.pull_request.head.sha || '' }}
+      pr-head-ref: ${{ github.event.pull_request.head.ref || '' }}
       context: .
       file: Dockerfile
       branch: master
