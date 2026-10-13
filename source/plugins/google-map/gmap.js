@@ -7,6 +7,7 @@ function initialize() {
   var mapMarker = $('#map').attr('data-marker');
   var mapMarkerName = $('#map').attr('data-marker-name');
   var nottingham = new google.maps.LatLng(latitude, longitude);
+  var markerPosition = new google.maps.LatLng(45.4952222, -73.5628889);
   var style = [
       {
           "featureType": "road.highway",
@@ -93,7 +94,7 @@ function initialize() {
   var marker_image = mapMarker;
   var pinIcon = new google.maps.MarkerImage(marker_image, null, null, null, new google.maps.Size(40, 60));
   marker = new google.maps.Marker({
-    position: nottingham,
+    position: markerPosition,
     map: map,
     icon: pinIcon,
     title: mapMarkerName

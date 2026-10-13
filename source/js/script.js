@@ -58,7 +58,7 @@
       year: 2026,
       month: 11,
       day: 5,
-      hour: 16,
+      hour: 15,
       minute: 0
     });
 
